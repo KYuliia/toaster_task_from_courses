@@ -1,0 +1,30 @@
+.red-text {
+  color: red;
+}
+
+#toasters_container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 10px 15px 0;
+}
+
+.toaster {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.error-toaster {
+  background: #f46565;
+}
+
+.info-toaster {
+  background: #84c1f9;
+}
+
+.success-toaster {
+  background: #84f997;
+}

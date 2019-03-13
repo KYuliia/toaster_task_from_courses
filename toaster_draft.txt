@@ -1,0 +1,45 @@
+
+function createToaster(type, titleMsg, textMsg) {
+  var toaster = document.createElement('div');
+
+....
+
+  return toaster;
+}
+
+function addToaster(type, title, text) {
+  var toastersContainer = document.getElementById('toasters_container');
+  var toaster;
+  switch(type) {
+    case 'error':
+...
+    case 'info':
+...
+    case 'success':
+...
+    case 'warning':
+...
+  }
+
+  toastersContainer.appendChild(toaster);
+}
+
+function clearAllToasters() {
+...
+}
+
+function errorToaster(title, text) {
+// use createToaster(...);
+}
+
+function successToaster(title, text) {
+// use createToaster(...);
+}
+
+function infoToaster(title, text) {
+// use createToaster(...);
+}
+
+function warningToaster(title, text) {
+// use createToaster(...);
+}

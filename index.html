@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demo</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta name="description" content="Demo project">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	    
+	</head>
+	<body>
+		<button  onclick="addToaster('error', 'TypeError', 'Variable is undefined')">Error</button>
+		<button  onclick="addToaster('info', 'Information', 'Please note that your session ends in 5 minutes')">Info</button>
+		<button  onclick="addToaster('success', 'Success', 'User has been added successfully')">Success</button>
+		<button  onclick="clearAllToasters()">Clear all</button>
+		<div id="toasters_container"></div>
+		<script src="toaster.js"></script>
+	</body>
+</html>
